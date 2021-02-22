@@ -5,10 +5,13 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
 
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  background-color: #f8f6f8;
 }
 
 :root {
@@ -32,7 +35,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #ddd;
+  color: darkgray;
 }
 
 a:hover {
@@ -54,6 +57,11 @@ a:hover {
   background-color: black;
   padding: 10px 20px;
   color: #fff;
+  overflow: none;
+}
+
+.hamburger {
+  display: none;
 }
 
 .list-left {
@@ -79,10 +87,23 @@ li {
   padding: 10px 20px;
   color: darkgray;
   font-weight: bold;
+  align-items: center;
+  background-color: #fefefe;
+}
+
+.logo {
+  display: none;
+  background-color: black;
+  padding: 10px;
+  font-family: "Amiri", serif;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .list-bottom-left {
   display: flex;
+  align-items: center;
 }
 
 .li-bottom {
@@ -98,6 +119,18 @@ li {
   padding: 5px 20px;
   font-weight: 600;
   font-size: 0.8rem;
+}
+
+.sticky-1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky-2 {
+  position: fixed;
+  top: 60px;
+  width: 100%;
 }
 
 /* footer */
@@ -253,14 +286,35 @@ h2 {
   font-size: 0.9rem;
 }
 
+.a-high {
+  color: #fff;
+}
+
+.logo-big {
+  color: #fff;
+  font-size: 8rem;
+
+  font-family: "Stick", sans-serif;
+}
+
+.date-h {
+  color: #fff;
+}
+
+.high-left-top {
+  display: flex;
+  justify-content: space-between;
+}
+
 .high-left {
   flex: 1.5;
-  background: url("assets/h-1.JPG") center center/cover no-repeat;
+  background: linear-gradient(rgba(128, 18, 18, 0.8), rgba(7, 7, 7, 0.3)),
+    url("assets/h-1.JPG") center center/cover no-repeat;
   height: 100%;
   border: 2px solid #fff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   text-align: left;
   padding: 20px;
 }
@@ -298,6 +352,36 @@ h2 {
     font-size: 0.8rem;
   }
 
+  .nav-top {
+    display: none;
+  }
+
+  .nav-bottom-left,
+  .nav-bottom-right {
+    display: none;
+  }
+
+  .news {
+    margin-top: 250px;
+  }
+
+  .sticky-2 {
+    top: 30px;
+  }
+
+  .nav-superbottom {
+    height: 40px;
+  }
+
+  .hamburger {
+    display: block;
+    margin: left;
+  }
+
+  .highlights {
+    margin-bottom: 20px;
+  }
+
   .row {
     flex-direction: column;
   }
@@ -322,9 +406,5 @@ h2 {
   .highlights-container {
     flex-direction: column;
     margin-bottom: 20px;
-  }
-
-  h2 {
-    margin-top: 80px;
   }
 }
