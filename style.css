@@ -212,12 +212,16 @@ h2 {
   display: flex;
 }
 
+.item-h-left {
+  padding: 10px;
+}
+
 .h4-red {
   background-color: red;
   color: #fff;
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
 }
 
 .item-h-right {
