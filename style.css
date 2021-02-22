@@ -3,8 +3,12 @@
                 ****** RESET ******
     ==============================================
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -28,11 +32,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #ddd;
 }
 
 a:hover {
-  color: #333;
+  color: lightslategray;
 }
 
 /*
@@ -40,3 +44,64 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* header */
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.list-left {
+  display: flex;
+}
+
+.list-right {
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.selected {
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: darkgray;
+  font-weight: bold;
+  /* position: fixed;
+  width: 100%; */
+}
+
+.list-bottom-left {
+  display: flex;
+}
+
+.li-bottom {
+  margin-right: 20px;
+}
+
+.nav-bottom-right {
+  border-left: 1px solid #000;
+  font-size: 1.1rem;
+}
+
+.nav-superbottom {
+  background-color: gold;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  /* position: fixed;
+  display: block;
+  width: 100%; */
+}
