@@ -407,4 +407,7 @@ h2 {
     flex-direction: column;
     margin-bottom: 20px;
   }
+  .footer-li {
+    margin-right: 10px;
+  }
 }
