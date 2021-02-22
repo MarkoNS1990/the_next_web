@@ -190,3 +190,75 @@ h2 {
   margin-left: 20px;
   padding-top: 20px;
 }
+
+/* Latest funding */
+
+.row-latest {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.img-h {
+  width: 50px;
+}
+
+.item-h {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-heading {
+  display: flex;
+}
+
+.h4-red {
+  background-color: red;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.item-h-right {
+  width: 100%;
+}
+
+.p-linen {
+  background-color: linen;
+  padding: 10px;
+}
+
+.span-normal {
+  color: gray;
+}
+
+.item-h {
+  flex-basis: 22%;
+}
+
+.item-text {
+  background-color: snow;
+  padding: 20px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .row-latest {
+    flex-direction: column;
+  }
+  img {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+}
