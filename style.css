@@ -186,8 +186,6 @@ span {
 
 /* Latest News */
 
-
-
 .row {
   display: flex;
   justify-content: space-between;
@@ -206,18 +204,18 @@ img {
   border-radius: 5px;
 }
 
-.img{
+.img {
   height: 150px;
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-basis: 23%;
   padding: 10px;
-  text-align:left;
-  background-color:snow;
+  text-align: left;
+  background-color: snow;
 }
 
 .comment {
