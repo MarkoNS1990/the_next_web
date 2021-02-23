@@ -186,11 +186,14 @@ span {
 
 /* Latest News */
 
+
+
 .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 30px 20px;
+  
 }
 
 img {
@@ -199,16 +202,23 @@ img {
   object-fit: cover;
 }
 
-.img {
+.img-n {
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.img{
   height: 150px;
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content:space-between;
   flex-basis: 23%;
+  padding: 10px;
+  text-align:left;
+  background-color:snow;
 }
 
 .comment {
