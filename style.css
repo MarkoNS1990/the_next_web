@@ -14,6 +14,11 @@ body {
   background-color: #f8f6f8;
 }
 
+.container{
+  width:90%;
+  margin: auto;
+}
+
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
@@ -57,6 +62,10 @@ a:hover {
   background-color: black;
   padding: 10px 20px;
   color: #fff;
+}
+
+.nav-logo{
+  display: none;
 }
 
 .hamburger {
@@ -276,6 +285,9 @@ h2 {
 }
 
 /* HighLights */
+.highlights{
+  margin-top: 40px;
+}
 
 .highlights-container {
   display: flex;
@@ -283,10 +295,13 @@ h2 {
   margin: 10px;
   height: 70vh;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .a-high {
   color: #fff;
+  font-weight: bold;
+  
 }
 
 .logo-big {
@@ -295,8 +310,19 @@ h2 {
   font-family: "Stick", sans-serif;
 }
 
+.a-left-top{
+  flex: 2.3;
+}
+
+.logo-high{
+  width:70%;
+  
+}
+
 .date-h {
   color: #fff;
+  flex: 1;
+  
 }
 
 .high-left-top {
@@ -354,17 +380,46 @@ h2 {
     font-size: 0.8rem;
   }
 
+  .highlights{
+    margin-top: 50px;
+    margin-bottom: 180px;
+  }
+
   .nav-top {
     display: none;
   }
 
-  .nav-bottom-left,
-  .nav-bottom-right {
+  .nav-logo{
+    display: block;
+    width:10%;
+    float:left;
+  }
+
+  .nav-bottom-left {
     display: none;
   }
 
+  
+
+  .nav-bottom{
+    justify-content: flex-end;
+  }
+
   .news {
-    margin-top: 250px;
+    margin-top: 50px;
+  }
+
+  .a-left-top{
+    flex: 1.1;
+  }
+  
+  .h1-h{
+    font-size:0.8rem
+  }
+
+  .logo-high{
+    width:80%;
+    
   }
 
   .sticky-2 {
@@ -377,11 +432,9 @@ h2 {
 
   .hamburger {
     display: block;
+    margin-right: 10px;
   }
 
-  .highlights {
-    margin-bottom: 20px;
-  }
 
   .row {
     flex-direction: column;
@@ -411,5 +464,10 @@ h2 {
 
   .footer-li {
     margin-right: 10px;
+    padding: 5px 10px;
+  }
+
+  .fab,.fas{
+    font-size:0.8rem
   }
 }
