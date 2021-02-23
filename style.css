@@ -193,7 +193,6 @@ span {
   justify-content: space-between;
   align-items: flex-start;
   padding: 30px 20px;
-  
 }
 
 img {
@@ -441,10 +440,15 @@ h2 {
 
   .row {
     flex-direction: column;
+    padding: 5px;
   }
 
   .row-latest {
     flex-direction: column;
+  }
+
+  .item{
+    margin-bottom: 10px;
   }
 
   img {
