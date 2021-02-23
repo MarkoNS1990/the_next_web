@@ -460,7 +460,10 @@ h2 {
     padding: 5px 10px;
   }
 
-  .fab,
+  .fab {
+    font-size: 0.8rem;
+  }
+
   .fas {
     font-size: 0.8rem;
   }
