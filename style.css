@@ -314,7 +314,7 @@ h2 {
 }
 
 .logo-high {
-  width:70%;
+  width: 70%;
 }
 
 .date-h {
@@ -388,8 +388,8 @@ h2 {
 
   .nav-logo {
     display: block;
-    width:10%;
-    float:left;
+    width: 10%;
+    float: left;
   }
 
   .nav-bottom-left {
@@ -407,14 +407,14 @@ h2 {
   .a-left-top {
     flex: 1.1;
   }
-  
+
   .h1-h {
-    font-size:0.8rem
+    font-size: 0.8rem
   }
 
   .logo-high {
-    width:80%;
- }
+    width: 80%;
+  }
 
   .sticky-2 {
     top: 30px;
@@ -428,7 +428,6 @@ h2 {
     display: block;
     margin-right: 10px;
   }
-
 
   .row {
     flex-direction: column;
@@ -461,7 +460,8 @@ h2 {
     padding: 5px 10px;
   }
 
-  .fab,.fas {
-    font-size:0.8rem
+  .fab,
+  .fas {
+    font-size: 0.8rem;
   }
 }
