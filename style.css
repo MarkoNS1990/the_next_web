@@ -14,8 +14,8 @@ body {
   background-color: #f8f6f8;
 }
 
-.container{
-  width:90%;
+.container {
+  width: 90%;
   margin: auto;
 }
 
@@ -64,7 +64,7 @@ a:hover {
   color: #fff;
 }
 
-.nav-logo{
+.nav-logo {
   display: none;
 }
 
@@ -285,7 +285,7 @@ h2 {
 }
 
 /* HighLights */
-.highlights{
+.highlights {
   margin-top: 40px;
 }
 
@@ -301,7 +301,6 @@ h2 {
 .a-high {
   color: #fff;
   font-weight: bold;
-  
 }
 
 .logo-big {
@@ -310,19 +309,17 @@ h2 {
   font-family: "Stick", sans-serif;
 }
 
-.a-left-top{
+.a-left-top {
   flex: 2.3;
 }
 
-.logo-high{
+.logo-high {
   width:70%;
-  
 }
 
 .date-h {
   color: #fff;
   flex: 1;
-  
 }
 
 .high-left-top {
@@ -380,7 +377,7 @@ h2 {
     font-size: 0.8rem;
   }
 
-  .highlights{
+  .highlights {
     margin-top: 50px;
     margin-bottom: 180px;
   }
@@ -389,7 +386,7 @@ h2 {
     display: none;
   }
 
-  .nav-logo{
+  .nav-logo {
     display: block;
     width:10%;
     float:left;
@@ -399,9 +396,7 @@ h2 {
     display: none;
   }
 
-  
-
-  .nav-bottom{
+  .nav-bottom {
     justify-content: flex-end;
   }
 
@@ -409,18 +404,17 @@ h2 {
     margin-top: 50px;
   }
 
-  .a-left-top{
+  .a-left-top {
     flex: 1.1;
   }
   
-  .h1-h{
+  .h1-h {
     font-size:0.8rem
   }
 
-  .logo-high{
+  .logo-high {
     width:80%;
-    
-  }
+ }
 
   .sticky-2 {
     top: 30px;
@@ -467,7 +461,7 @@ h2 {
     padding: 5px 10px;
   }
 
-  .fab,.fas{
+  .fab,.fas {
     font-size:0.8rem
   }
 }
