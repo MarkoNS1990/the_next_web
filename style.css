@@ -477,8 +477,7 @@ h5 {
 .item-deals {
   flex-basis: 22%;
   padding: 20px;
-  margin-bottom:60px;
-  
+  margin-bottom: 70px;
 }
 
 .price-1{
@@ -608,6 +607,18 @@ h5 {
 
   .latest-img {
     flex: 2;
+  }
+
+  .row-deals{
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+  }
+
+  
+  .item-deals {
+    padding: 5px;
+    text-align: center;
   }
 }
 
