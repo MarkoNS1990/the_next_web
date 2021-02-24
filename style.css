@@ -338,8 +338,9 @@ h2 {
 
 .high-left {
   flex: 1.5;
-  background: linear-gradient(rgba(128, 18, 18, 0.8), rgba(7, 7, 7, 0.5)),
-    url("assets/h-1.JPG") center center/cover no-repeat;
+    background:
+      linear-gradient(rgba(128, 18, 18, 0.8), rgba(7, 7, 7, 0.5)),
+      url("assets/h-1.JPG") center center/cover no-repeat;
   height: 100%;
   border: 2px solid #fff;
   display: flex;
@@ -390,8 +391,9 @@ h2 {
 }
 
 .main-bg-img {
-  background: linear-gradient(transparent, rgba(7, 7, 7, 1)),
-    url("assets/main1.JPG") center center/cover no-repeat;
+    background:
+      linear-gradient(transparent, rgba(7, 7, 7, 1)),
+      url("assets/main1.JPG") center center/cover no-repeat;
   height: 40vh;
   color: #fff;
   font-weight: bold;
