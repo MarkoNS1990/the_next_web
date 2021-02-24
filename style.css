@@ -418,7 +418,7 @@ h2 {
 }
 
 h4 {
-  font-size: 20px;;
+  font-size: 20px;
 }
 
 h5 {
@@ -469,7 +469,7 @@ h5 {
 
 /* Latest Deals */
 
-.deals{
+.deals {
   margin-bottom: 50px;
 }
 
@@ -485,7 +485,7 @@ h5 {
   margin-bottom: 70px;
 }
 
-.price-1{
+.price-1 {
   text-decoration: line-through;
   margin-right: 10px;
   color: darkgray;
@@ -495,7 +495,7 @@ h5 {
   color: green;
 }
 
-.desc{
+.desc {
   padding: 10px 0;
 }
 
@@ -614,7 +614,7 @@ h5 {
     flex: 2;
   }
 
-  .row-deals{
+  .row-deals {
     flex-direction: column;
     margin-bottom: 10px;
     justify-content: flex-start;
@@ -688,40 +688,40 @@ h5 {
    padding: 20px;
  }
 
- .row-latest{
+ .row-latest {
    flex-wrap: wrap;
  }
  
- .row-main{
+ .row-main {
    flex-wrap: wrap;
    font-size: 0.8rem;
  }
 
- .item-main{
+ .item-main {
    flex-basis: 40%;
    text-align: center;
  }
 
- .item-main:nth-child(3){
+ .item-main:nth-child(3) {
    margin: auto;
    width:100%;
    flex-basis: 70%;
    font-size: 1rem;
  }
  
- .ul-footer-top{
+ .ul-footer-top {
      font-size: 1rem;
  }
  
- .latest-img{
+ .latest-img {
     flex: 2;
  }
 
- .item-deals{
+ .item-deals {
    flex-basis: 30%;
  }
 
- .row-deals{
+ .row-deals {
    justify-content:left
  }
   
