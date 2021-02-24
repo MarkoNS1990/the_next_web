@@ -338,11 +338,7 @@ h2 {
 
 .high-left {
   flex: 1.5;
-  background:
-    linear-gradient(
-      rgba(128, 18, 18, 0.8),
-      rgba(7, 7, 7, 0.5)
-    ),
+  background: linear-gradient(rgba(128, 18, 18, 0.8), rgba(7, 7, 7, 0.5)),
     url("assets/h-1.JPG") center center/cover no-repeat;
   height: 100%;
   border: 2px solid #fff;
@@ -394,12 +390,8 @@ h2 {
 }
 
 .main-bg-img {
-  background:
-    linear-gradient(
-      transparent,
-      rgba(7, 7, 7, 1)
-    ),
-    url('assets/main1.JPG') center center/cover no-repeat;
+  background: linear-gradient(transparent, rgba(7, 7, 7, 1)),
+    url("assets/main1.JPG") center center/cover no-repeat;
   height: 40vh;
   color: #fff;
   font-weight: bold;
@@ -448,7 +440,7 @@ h5 {
 
 .latest-img {
   flex: 1;
-  background: url('assets/main4.JPG') center center/cover no-repeat;
+  background: url("assets/main4.JPG") center center/cover no-repeat;
 }
 
 .latest-li {
@@ -620,7 +612,6 @@ h5 {
     justify-content: flex-start;
   }
 
-  
   .item-deals {
     padding: 5px;
     text-align: center;
@@ -628,25 +619,25 @@ h5 {
 }
 
 @media (max-width: 768px) {
- nav {
-   flex-wrap: wrap;
-   font-size: 0.8rem;
- }
-
- .nav-top {
-   align-items: center;
-   justify-content:center;
-   padding: 5px;
- }
-
- .nav-bottom {
-   font-size: 0.7rem;
-   padding: 5px 2px 20px 2px;
-   justify-content:center;
-   flex-direction: row;
-   flex-wrap: nowrap;
+  nav {
+    flex-wrap: wrap;
+    font-size: 0.8rem;
   }
- 
+
+  .nav-top {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .nav-bottom {
+    font-size: 0.7rem;
+    padding: 5px 2px 20px 2px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
   .li-bottom {
     margin-right: 5px;
     font-size: 0.7rem;
@@ -658,73 +649,69 @@ h5 {
   }
 
   .container {
-   width: 90%;
- }
+    width: 90%;
+  }
 
- .logo-high {
-   width: 80%;
-   
- }
+  .logo-high {
+    width: 80%;
+  }
 
- .date-h {
-   font-size: 0.5rem;
- }
+  .date-h {
+    font-size: 0.5rem;
+  }
 
- .h1-h {
-   font-size: 0.8rem;
- }
+  .h1-h {
+    font-size: 0.8rem;
+  }
 
- .high-left {
-   justify-content: space-around;
- }
+  .high-left {
+    justify-content: space-around;
+  }
 
- .row{
-   flex-wrap: wrap;
-   flex-basis: 40%;
- }
+  .row {
+    flex-wrap: wrap;
+    flex-basis: 40%;
+  }
 
- .item{
-   flex-basis: 40%;
-   padding: 20px;
- }
+  .item {
+    flex-basis: 40%;
+    padding: 20px;
+  }
 
- .row-latest {
-   flex-wrap: wrap;
- }
- 
- .row-main {
-   flex-wrap: wrap;
-   font-size: 0.8rem;
- }
+  .row-latest {
+    flex-wrap: wrap;
+  }
 
- .item-main {
-   flex-basis: 40%;
-   text-align: center;
- }
+  .row-main {
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+  }
 
- .item-main:nth-child(3) {
-   margin: auto;
-   width:100%;
-   flex-basis: 70%;
-   font-size: 1rem;
- }
- 
- .ul-footer-top {
-     font-size: 1rem;
- }
- 
- .latest-img {
+  .item-main {
+    flex-basis: 40%;
+    text-align: center;
+  }
+
+  .item-main:nth-child(3) {
+    margin: auto;
+    width: 100%;
+    flex-basis: 70%;
+    font-size: 1rem;
+  }
+
+  .ul-footer-top {
+    font-size: 1rem;
+  }
+
+  .latest-img {
     flex: 2;
- }
+  }
 
- .item-deals {
-   flex-basis: 30%;
- }
+  .item-deals {
+    flex-basis: 30%;
+  }
 
- .row-deals {
-   justify-content:left
- }
-  
- 
-
+  .row-deals {
+    justify-content: left;
+  }
 }
