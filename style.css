@@ -341,7 +341,7 @@ h2 {
   background:
     linear-gradient(
       rgba(128, 18, 18, 0.8),
-      rgba(7, 7, 7, 0.3)
+      rgba(7, 7, 7, 0.5)
     ),
     url("assets/h-1.JPG") center center/cover no-repeat;
   height: 100%;
@@ -396,8 +396,8 @@ h2 {
 .main-bg-img {
   background:
     linear-gradient(
-      rgba(240, 234, 234, 0.8),
-      rgba(7, 7, 7, 0.3)
+      transparent,
+      rgba(7, 7, 7, 1)
     ),
     url('assets/main1.JPG') center center/cover no-repeat;
   height: 40vh;
@@ -496,7 +496,7 @@ h5 {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   body {
     font-size: 0.8rem;
   }
