@@ -462,6 +462,39 @@ h5 {
   margin-left: -1em;
 }
 
+/* Latest Deals */
+
+.deals{
+  margin-bottom: 50px;
+}
+
+.row-deals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-deals {
+  flex-basis: 22%;
+  padding: 20px;
+  margin-bottom:60px;
+  
+}
+
+.price-1{
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: darkgray;
+}
+
+.price-2 {
+  color: green;
+}
+
+.desc{
+  padding: 10px 0;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 480px) {
@@ -667,5 +700,15 @@ h5 {
  .latest-img{
     flex: 2;
  }
+
+ .item-deals{
+   flex-basis: 30%;
+ }
+
+ .row-deals{
+   justify-content:left
+ }
+  
  
+
 }
