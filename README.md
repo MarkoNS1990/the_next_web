@@ -24,6 +24,11 @@ Just download the repo and run it locally.
 
 - GitHub: [@githubhandle](https://github.com/MarkoNS1990)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/zilton7)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

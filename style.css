@@ -254,6 +254,7 @@ h2 {
 
 .item-heading {
   display: flex;
+  width: 100%;
 }
 
 .item-h-left {
